@@ -5,7 +5,7 @@ import logging
 import os
 import time
 
-import telemetry  # noqa: F401 - initialize OpenTelemetry providers first
+import telemetry 
 from telemetry import flush_telemetry
 from opentelemetry import metrics, trace
 from opentelemetry.trace import Status, StatusCode
