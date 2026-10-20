@@ -1,4 +1,3 @@
-```python
 """OpenTelemetry setup for AWS Lambda: traces, metrics, and logs."""
 
 import logging
