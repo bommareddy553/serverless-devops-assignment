@@ -159,4 +159,4 @@ def flush_telemetry() -> None:
 
 
 initialize_telemetry()
-```
+
