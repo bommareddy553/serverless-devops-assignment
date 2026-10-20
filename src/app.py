@@ -1,4 +1,3 @@
-```python
 """Minimal Hello World API with OpenTelemetry instrumentation."""
 
 import json
