@@ -1,0 +1,8 @@
+aws_region  = "us-east-1"
+environment = "dev"
+
+# Example only; use the endpoint shown in your Grafana Cloud OTLP setup.
+grafana_otlp_endpoint = "https://otlp-gateway-prod-REGION.grafana.net/otlp"
+
+# Supply the real sensitive header via TF_VAR_grafana_otlp_headers in your shell,
+# not by committing it to terraform.tfvars.
