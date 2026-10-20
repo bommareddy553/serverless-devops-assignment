@@ -127,4 +127,3 @@ def lambda_handler(event, context):
         # Flush even if the handler encounters an unexpected exception.
         # flush_telemetry() must not log exporter failures recursively.
         flush_telemetry()
-```
